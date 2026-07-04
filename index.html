@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Turismo a la India</title>
+
+    <meta
+      name="description"
+      content="Descubre los lugares turísticos, gastronomía, cultura y tecnología de la India."
+    />
+
+    <meta name="author" content="Nicolás Bendezú" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+
+  <body>
+    <!--================ NAVBAR =================-->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold text-warning fs-3" href="#">
+          Incredible India
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"> Inicio </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="lugares.html"> Lugares </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="como-llegar.html"> Cómo llegar </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="gastronomia.html"> Gastronomía </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="cultura.html"> Cultura </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="tecnologia.html"> Tecnología </a>
+            </li>
+
+            <li class="nav-item ms-lg-3">
+              <a href="lugares.html" class="btn btn-warning px-4 rounded-pill">
+                Explorar
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--================ HERO =================-->
+
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6">
+            <span class="badge bg-warning text-dark mb-3">
+              🇮🇳 Descubre la magia de la India
+            </span>
+
+            <h1 class="display-3 fw-bold mb-4">
+              Explora un país lleno de historia, cultura y tradición.
+            </h1>
+
+            <p class="lead mb-4">
+              Viaja por monumentos impresionantes, templos ancestrales, ciudades
+              vibrantes y una gastronomía reconocida en todo el mundo.
+            </p>
+
+            <a
+              href="lugares.html"
+              class="btn btn-warning btn-lg rounded-pill me-3"
+            >
+              Explorar destinos
+            </a>
+
+            <a
+              href="como-llegar.html"
+              class="btn btn-outline-light btn-lg rounded-pill"
+            >
+              Planificar viaje
+            </a>
+          </div>
+
+          <div class="col-lg-6 text-center">
+            <img
+              src="assets/img/fondo Taj Mahal .png"
+              class="img-fluid hero-img"
+              alt="Taj Mahal"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= BIENVENIDA ================= -->
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <span class="text-warning fw-semibold">
+              Bienvenido a la India
+            </span>
+
+            <h2 class="fw-bold display-5 mt-3 mb-4">
+              Un destino lleno de historia, cultura y experiencias inolvidables.
+            </h2>
+
+            <p class="text-muted fs-5">
+              La India es un país fascinante donde conviven antiguas
+              tradiciones, impresionantes monumentos, una gastronomía única y
+              una gran diversidad cultural. Cada ciudad ofrece una experiencia
+              diferente para quienes desean descubrir uno de los destinos más
+              sorprendentes del mundo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LUGARES DESTACADOS ================= -->
+
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="text-warning fw-semibold"> Destinos Imperdibles </span>
+
+          <h2 class="fw-bold mt-3">Lugares turísticos más visitados</h2>
+
+          <p class="text-muted">
+            Descubre algunos de los lugares más famosos que hacen de la India un
+            destino único.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Taj Mahal -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card shadow border-0 h-100">
+              <img
+                src="assets/img/Taj Mahal .png"
+                class="card-img-top"
+                alt="Taj Mahal"
+              />
+
+              <div class="card-body">
+                <h4 class="fw-bold">Taj Mahal</h4>
+
+                <p class="text-muted">
+                  El monumento más famoso de la India y una de las Siete
+                  Maravillas del Mundo Moderno.
+                </p>
+
+                <a href="lugares.html" class="btn btn-warning rounded-pill">
+                  Ver más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Jaipur -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card shadow border-0 h-100">
+              <img
+                src="assets/img/Jaipur.png"
+                class="card-img-top"
+                alt="Jaipur"
+              />
+
+              <div class="card-body">
+                <h4 class="fw-bold">Jaipur</h4>
+
+                <p class="text-muted">
+                  Conocida como la Ciudad Rosa por sus palacios, fortalezas y
+                  arquitectura histórica.
+                </p>
+
+                <a href="lugares.html" class="btn btn-warning rounded-pill">
+                  Ver más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kerala -->
+
+          <div class="col-lg-4 col-md-6 mx-auto">
+            <div class="card shadow border-0 h-100">
+              <img
+                src="assets/img/Kerala .png"
+                class="card-img-top"
+                alt="Kerala"
+              />
+
+              <div class="card-body">
+                <h4 class="fw-bold">Kerala</h4>
+
+                <p class="text-muted">
+                  Famosa por sus paisajes naturales, canales, playas y
+                  exuberante vegetación.
+                </p>
+
+                <a href="lugares.html" class="btn btn-warning rounded-pill">
+                  Ver más
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a
+            href="lugares.html"
+            class="btn btn-outline-warning btn-lg rounded-pill"
+          >
+            Explorar todos los destinos
+          </a>
+        </div>
+      </div>
+    </section>
+<!-- ================= GASTRONOMÍA ================= -->
+
+<section class="py-5 bg-light gastronomia>
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <img src="assets/img/fondo gastronomía.png"
+                     class="img-fluid rounded-4 shadow"
+                     alt="Gastronomía India">
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <span class="text-warning fw-semibold">
+                    Gastronomía
+                </span>
+
+                <h2 class="fw-bold display-6 mt-3">
+
+                    Sabores que conquistan al mundo
+
+                </h2>
+
+                <p class="text-muted mt-4">
+
+                    La cocina india destaca por su variedad de especias,
+                    aromas y recetas tradicionales. Cada región posee platos
+                    únicos que reflejan su historia y cultura.
+
+                </p>
+
+                <ul class="list-unstyled mt-4">
+
+                    <li class="mb-3">
+                        <i class="bi bi-check-circle-fill text-warning"></i>
+                        Butter Chicken
+                    </li>
+
+                    <li class="mb-3">
+                        <i class="bi bi-check-circle-fill text-warning"></i>
+                        Biryani
+                    </li>
+
+                    <li class="mb-3">
+                        <i class="bi bi-check-circle-fill text-warning"></i>
+                        Samosas
+                    </li>
+
+                    <li>
+                        <i class="bi bi-check-circle-fill text-warning"></i>
+                        Masala Chai
+                    </li>
+
+                </ul>
+
+                <a href="gastronomia.html"
+                   class="btn btn-warning rounded-pill mt-3">
+
+                    Descubrir Gastronomía
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CULTURA ================= -->
+
+<section class="py-5 cultura">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="text-warning fw-semibold">
+
+                Cultura
+
+            </span>
+
+            <h2 class="fw-bold mt-3">
+
+                Tradiciones que hacen única a la India
+
+            </h2>
+
+            <p class="text-muted">
+
+                Festivales, danzas, religiones y costumbres convierten
+                a la India en uno de los países con mayor riqueza cultural.
+
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card border-0 shadow text-center h-100">
+
+                    <div class="card-body p-4">
+
+                        <i class="bi bi-stars fs-1 text-warning"></i>
+
+                        <h4 class="mt-4 fw-bold">
+
+                            Festivales
+
+                        </h4>
+
+                        <p class="text-muted">
+
+                            Holi, Diwali y muchas celebraciones llenas de color.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card border-0 shadow text-center h-100">
+
+                    <div class="card-body p-4">
+
+                        <i class="bi bi-music-note-beamed fs-1 text-warning"></i>
+
+                        <h4 class="mt-4 fw-bold">
+
+                            Danzas
+
+                        </h4>
+
+                        <p class="text-muted">
+
+                            Bharatanatyam, Kathak y otras expresiones artísticas.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card border-0 shadow text-center h-100">
+
+                    <div class="card-body p-4">
+
+                        <i class="bi bi-globe-asia-australia fs-1 text-warning"></i>
+
+                        <h4 class="mt-4 fw-bold">
+
+                            Idiomas
+
+                        </h4>
+
+                        <p class="text-muted">
+
+                            Más de 20 idiomas oficiales y cientos de dialectos.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card border-0 shadow text-center h-100">
+
+                    <div class="card-body p-4">
+
+                        <i class="bi bi-people-fill fs-1 text-warning"></i>
+
+                        <h4 class="mt-4 fw-bold">
+
+                            Tradiciones
+
+                        </h4>
+
+                        <p class="text-muted">
+
+                            Costumbres transmitidas de generación en generación.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+
+            <a href="cultura.html"
+               class="btn btn-warning rounded-pill">
+
+                Explorar Cultura
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TECNOLOGÍA ================= -->
+
+<section class="py-5 bg-dark text-white tecnologia">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <span class="text-warning fw-semibold">
+
+                    Tecnología y Educación
+
+                </span>
+
+                <h2 class="display-5 fw-bold mt-3">
+
+                    Innovación que impulsa el futuro
+
+                </h2>
+
+                <p class="mt-4">
+
+                    La India es reconocida mundialmente por sus universidades,
+                    empresas tecnológicas y centros de innovación que forman
+                    profesionales altamente capacitados.
+
+                </p>
+
+                <div class="row mt-5">
+
+                    <div class="col-6 mb-4">
+
+                        <h3 class="fw-bold text-warning">
+
+                            6+
+
+                        </h3>
+
+                        <p>
+
+                            Universidades destacadas
+
+                        </p>
+
+                    </div>
+
+                    <div class="col-6 mb-4">
+
+                        <h3 class="fw-bold text-warning">
+
+                            4
+
+                        </h3>
+
+                        <p>
+
+                            Programas de becas
+
+                        </p>
+
+                    </div>
+
+                    <div class="col-6">
+
+                        <h3 class="fw-bold text-warning">
+
+                            1000+
+
+                        </h3>
+
+                        <p>
+
+                            Startups tecnológicas
+
+                        </p>
+
+                    </div>
+
+                    <div class="col-6">
+
+                        <h3 class="fw-bold text-warning">
+
+                            Top Mundial
+
+                        </h3>
+
+                        <p>
+
+                            En desarrollo de software
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <a href="tecnologia.html"
+                   class="btn btn-warning rounded-pill mt-4">
+
+                    Conocer más
+
+                </a>
+
+            </div>
+
+            <div class="col-lg-6 text-center">
+
+                <img src="assets/img/fondo tecnología.png"
+                     class="img-fluid"
+                     alt="Tecnología India">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--================ GALERÍA =================-->
+
+<section class="py-5 galeria">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <span class="text-warning fw-semibold">
+                Galería
+            </span>
+
+            <h2 class="fw-bold display-5 mt-3">
+
+                Explora la belleza de la India
+
+            </h2>
+
+            <p class="text-muted">
+
+                Algunos de los lugares más impresionantes que podrás visitar.
+
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+
+                <img src="assets/img/galeria 1.png"
+                    class="img-fluid rounded-4 shadow"
+                    alt="India">
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+
+                <img src="assets/img/galeria 2.png"
+                    class="img-fluid rounded-4 shadow"
+                    alt="India">
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+
+                <img src="assets/img/galeria 3.png"
+                    class="img-fluid rounded-4 shadow"
+                    alt="India">
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+
+                <img src="assets/img/galeria 4.png"
+                    class="img-fluid rounded-4 shadow"
+                    alt="India">
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+
+                <img src="assets/img/galeria 5.png"
+                    class="img-fluid rounded-4 shadow"
+                    alt="India">
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+
+                <img src="assets/img/galeria 6.png"
+                    class="img-fluid rounded-4 shadow"
+                    alt="India">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ CTA =================-->
+
+<section class="py-5 cta">
+
+    <div class="container text-center">
+
+        <h2 class="display-5 fw-bold">
+
+            ¿Listo para descubrir la India?
+
+        </h2>
+
+        <p class="fs-5 mt-3">
+
+            Planea tu viaje y conoce uno de los destinos más fascinantes del mundo.
+
+        </p>
+
+        <a href="lugares.html"
+            class="btn btn-dark btn-lg rounded-pill mt-3">
+
+            Comenzar ahora
+
+        </a>
+
+    </div>
+
+</section>
+
+<!--================ FOOTER =================-->
+
+<footer class="bg-dark text-white pt-5 pb-4">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-4">
+
+                <h3 class="fw-bold text-warning">
+
+                    Incredible India
+
+                </h3>
+
+                <p class="mt-3">
+
+                    Sitio web dedicado a mostrar la riqueza turística,
+                    cultural, gastronómica y tecnológica de la India.
+
+                </p>
+
+            </div>
+
+            <div class="col-lg-2">
+
+                <h5>
+
+                    Navegación
+
+                </h5>
+
+                <ul class="list-unstyled">
+
+                    <li><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
+
+                    <li><a href="lugares.html" class="text-white text-decoration-none">Lugares</a></li>
+
+                    <li><a href="como-llegar.html" class="text-white text-decoration-none">Cómo llegar</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <h5>
+
+                    Explorar
+
+                </h5>
+
+                <ul class="list-unstyled">
+
+                    <li><a href="gastronomia.html" class="text-white text-decoration-none">Gastronomía</a></li>
+
+                    <li><a href="cultura.html" class="text-white text-decoration-none">Cultura</a></li>
+
+                    <li><a href="tecnologia.html" class="text-white text-decoration-none">Tecnología</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <h5>
+
+                    Síguenos
+
+                </h5>
+
+                <div class="mt-3">
+
+                    <a href="#" class="text-warning fs-3 me-3">
+
+                        <i class="bi bi-facebook"></i>
+
+                    </a>
+
+                    <a href="#" class="text-warning fs-3 me-3">
+
+                        <i class="bi bi-instagram"></i>
+
+                    </a>
+
+                    <a href="#" class="text-warning fs-3">
+
+                        <i class="bi bi-youtube"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr class="mt-5">
+
+        <div class="text-center">
+
+            © <span id="year"></span> Turismo a la India | Proyecto desarrollado por Nicolás Bendezú.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!--================ BOTÓN ARRIBA =================-->
+
+<a href="#"
+    class="btn btn-warning rounded-circle position-fixed bottom-0 end-0 m-4 shadow"
+    id="btnTop">
+
+    <i class="bi bi-arrow-up"></i>
+
+</a>
+
+<!--================ Bootstrap =================-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--================ JS =================-->
+
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
+    <!-- Bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS -->
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
